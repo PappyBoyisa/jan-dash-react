@@ -1,0 +1,190 @@
+.search_bar{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    margin-left: 60px;
+    transition: transform 0.3s;
+    input{
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #808080;
+        margin: 0px 10px 0px 10px;
+        ::placeholder{
+            color: #aca2a2;
+            padding: 5px;
+            margin-left: 2px;
+        }
+    }
+}
+.search_bar:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+}
+header nav{
+    position: relative;
+    display: flex;
+   align-content: center;
+   justify-items: center;
+   align-items: center;
+   height: 5rem;
+   width: 100vw;
+   border-bottom: 2px solid #ebe5e5;
+   background-color: #ecebeb;
+  
+}
+nav h2{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    justify-self: center;
+    margin: 4px 10px 0px 2px ;
+    transition: transform 0.3s;
+   }
+   nav h2:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+}
+.headerIcons {
+    justify-content: space-between;
+    padding: 5px;
+    display: flex;
+    margin: 10px 60px 10px 60px;
+    transition: transform 0.3s;
+   }
+   .headerIcons:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: rgb(189, 161, 161);
+}
+.notificationP{
+    margin-left: 20px;
+    transition: transform 0.3s;
+   }
+   .headerIcons:hover{
+    transform: translateY(5px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: #bda1a1;
+}
+
+.headerIcon p{
+    margin-left: 10px;
+   }
+.userImage-container{
+    display: flex;
+    position: relative;
+    transition: transform 0.3s;
+}
+.userImage{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.userImage-container h1{
+    font-size: 15px;
+   padding-top: 5px;
+}
+.userImage-container p{
+    font-size: 10px;
+}
+userText{
+    display: flex;
+    flex-direction: column;
+}
+.FirstDiv-container{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    width: 100vw;
+    height: 5rem;
+    transition: transform 0.3s;
+   
+
+}
+.studentDiv{
+  position: relative;
+  margin: 10px 30px 10px 10px;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px solid #a55f5f;
+  background-color: rgb(240, 223, 223);
+  height: 75px;
+  width: 120px;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 10px;
+    
+} 
+.studentDiv .arrowIcon{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 20px;
+}
+.teachersDiv{
+    position: relative;
+    margin: 10px 30px 10px 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px solid #a55f5f;
+    background-color: rgb(240, 223, 223);
+    height: 75px;
+    width: 120px;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 10px;
+      
+  } 
+  .teachersDiv .arrowIcon{
+      position: absolute;
+      right: 10%;
+      top: 40%;
+      font-size: 20px;
+  }
+  .parentsDiv{
+    position: relative;
+    margin: 10px 30px 10px 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px solid #a55f5f;
+    background-color: rgb(240, 223, 223);
+    height: 75px;
+    width: 120px;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 10px;
+      
+  } 
+  .parentsDiv .arrowIcon{
+      position: absolute;
+      right: 10%;
+      top: 40%;
+      font-size: 20px;
+  }
+  .earningsDiv{
+    position: relative;
+    margin: 10px 30px 10px 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px solid #a55f5f;
+    background-color: rgb(240, 223, 223);
+    height: 75px;
+    width: 120px;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 10px;
+      
+  } 
+  .earningsDiv .arrowIcon{
+      position: absolute;
+      right: 10%;
+      top: 40%;
+      font-size: 20px;
+  }
