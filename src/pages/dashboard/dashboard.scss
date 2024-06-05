@@ -1,3 +1,5 @@
+
+
 .search_bar{
     background-color: whitesmoke;
     width: 200px;
@@ -187,4 +189,25 @@ userText{
       right: 10%;
       top: 40%;
       font-size: 20px;
+  }
+  .calendar{
+    float: right;
+    margin-top: 10px;
+   
+    // border: 1px solid #fff;
+    // outline: none;
+    // box-shadow: 1px solid white;
+    width: 26rem;
+   
+  }
+  .joinOurComunnity{
+    background-image: url(../../asset/joc2.png);
+    background-size: cover;
+    background-position: center;
+    height: 28rem;
+    width: 26rem;
+    position: absolute;
+    top: 32rem;
+    right: 46rem;
+    border-radius: 2rem;
   }

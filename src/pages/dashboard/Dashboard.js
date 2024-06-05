@@ -1,8 +1,12 @@
 import {useEffect,useState, useRef} from 'react';
 import { IoIosSearch } from "react-icons/io";
+import joc2 from '../../asset/joc2.png';
 import { IoMdMail } from "react-icons/io";
 import { IoIosNotifications } from "react-icons/io";
 import { PiArrowCircleUpRightFill } from "react-icons/pi";
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';
+import './Calendar.css'
 import './dashboard.scss'
 
 const Dashboard = () => {
@@ -13,7 +17,7 @@ const Dashboard = () => {
 
   
   return (
-    <div>
+    <div className='container'>
        <header>
         <nav>
           <h2>Dashboard</h2>
@@ -60,7 +64,14 @@ const Dashboard = () => {
           <p className='earningsNumber'> 224</p>
           <a href='./Piechart.js' target='blank'><div className='arrowIcon'><PiArrowCircleUpRightFill /> </div></a>
         </div>
-
+      
+      <div className='calendar'>
+      <Calendar />
+      </div>
+      <div className='joinOurComunnity'>
+     
+      </div>
+    
       </div>
     
 
@@ -68,5 +79,4 @@ const Dashboard = () => {
     </div>
   )
 }
-
 export default Dashboard
