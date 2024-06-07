@@ -65,7 +65,7 @@ nav h2{
     transform: translateX(10px);
     color: blue;
     border-radius: 2rem;
-    background-color: rgb(189, 161, 161);
+    background-color: #bda1a1;
 }
 .notificationP{
     margin-left: 20px;
@@ -109,10 +109,15 @@ userText{
     display: flex;
     padding: 5px;
     width: 100vw;
-    height: 5rem;
+    height: 100vh;
     transition: transform 0.3s;
+}
+.FirstDiv-container:hover{
+    transform: translateY(2px);
+    background-color: var(--color-dark-overlay);
+    color: var(--color-white);
+    border-radius: 2rem;
    
-
 }
 .studentDiv{
   position: relative;
@@ -125,8 +130,15 @@ userText{
   justify-content: space-between;
   border-radius: 1rem;
   padding: 10px;
+  
     
 } 
+.studentDiv:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: #bda1a1;}
+
 .studentDiv .arrowIcon{
     position: absolute;
     right: 10%;
@@ -146,6 +158,12 @@ userText{
     padding: 10px;
       
   } 
+  .teachersDiv:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: #bda1a1;}
+
   .teachersDiv .arrowIcon{
       position: absolute;
       right: 10%;
@@ -165,6 +183,12 @@ userText{
     padding: 10px;
       
   } 
+  .parentsDiv:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: #bda1a1;}
+
   .parentsDiv .arrowIcon{
       position: absolute;
       right: 10%;
@@ -184,6 +208,12 @@ userText{
     padding: 10px;
       
   } 
+  .earningsDiv:hover{
+    transform: translateX(10px);
+    color: blue;
+    border-radius: 2rem;
+    background-color: #bda1a1;}
+
   .earningsDiv .arrowIcon{
       position: absolute;
       right: 10%;
@@ -210,4 +240,10 @@ userText{
     top: 32rem;
     right: 46rem;
     border-radius: 2rem;
+    transition: transform 0.3s;
   }
+  .joinOurComunnity:hover{
+    transform: translateY(-5px);
+    color: blue;
+    border-radius: 2rem;
+}
